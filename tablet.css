@@ -1,0 +1,47 @@
+#header{
+    flex-direction: column;
+}
+.navber{
+    flex-direction: column;
+}
+.navber li a{
+    width: 100%;
+    margin-right: 20px;
+}
+#showcase{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+}
+.services{
+    text-align: center;
+}
+.service-1{
+    flex-direction: column;
+
+padding-left: 12px;
+margin: auto;
+}
+.service-1 i{
+    margin-right: 0;
+    border-radius: 50%;
+   align-self: center;
+}
+#mastro{
+    flex-direction: column;
+}
+.mastro-img{
+    width: 100%;
+}
+.mastro-description{
+    width: 100%;
+}
+#contact{
+    flex-direction: column;
+    align-items:center ;
+}
+.btn{
+    padding: 6px 152px;
+}
+

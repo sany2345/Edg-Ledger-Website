@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header-section */
+#header{
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo span{
+    color: lime;
+}
+.navber{
+    display: flex;
+
+}
+.navber li{
+    list-style: none;
+    display: flex;
+}
+.navber li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.navber li a:hover{
+    background-color: lightgreen;
+    color:#333 ;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+/* showcase-section */
+#showcase{
+   
+    background: url(./beautiful-sky.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.showcase-heading{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.showcase-text{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.showcase-btn{
+    font-size: 20px;
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.showcase-btn:hover{
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+/* memo-section */
+.memo-heading{
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+.memo-heading span{
+    color: lime;
+}
+.memo-container{
+    max-width: 1100px;
+    height: 200px;
+    margin: auto;
+}
+.services{
+    display: flex;
+    padding: 20px 0;
+}
+.service-1{
+    display: flex;
+}
+.service-1 i{
+    font-size: 30pxpx;
+border: 1px solid black;
+padding: 15px;
+background-color: lightgreen;
+border-radius: 100px;
+margin-top:10px ;
+margin-right: 15px;
+
+}
+/* mastro-section */
+#mastro{
+    display: flex;
+}
+.mastro-img{
+    width: 50%;
+
+}
+.mastro-img img{
+    width: 100%;
+}
+.mastro-description{
+    width: 50%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    
+}
+.mastro-heading{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.mastro-heading span{
+    color: lawngreen;
+
+}
+.mastro-text{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.mastro-heading-2{
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+.worker{
+    list-style: none;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+#clients{
+    height: 200px;
+}
+.client-heading{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.client-heading span{
+    color: limegreen;
+}
+.client-img{
+    display: flex;
+}
+.client-img img{
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+#contact{
+    flex-basis: 100%;
+    display: flex;
+    flex: 1;
+    margin-top: 12px;
+}
+.contact-heading{
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+.contact-text{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#contact form{
+ background-color: limegreen;
+ padding: 30px 20px;
+ flex-basis: 50%;
+ 
+}
+#contact #map{
+  flex: 1;  
+  flex-basis: 50%;
+}
+.form-group{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.form-control{
+    padding: 10px 5px;
+    width: 100%;
+}
+.contact-btn{
+    padding: 10px 3px;
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+}
+.contact-btn:hover{
+    background-color: blueviolet;
+}
